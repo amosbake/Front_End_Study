@@ -44,14 +44,14 @@
 4.	设定宽高 alt属性表示图像不能显示时的替代文字<br/>` <a href="https://www.baidu.com"><img src="imgs\1341581055_3571.png" width="100px" height="100px"></a>`
 ###html表格
 1.	`<table>`表格:<br/>
--	<b>`border="2px"`定义其边框<b> 
--	<b>单元格的内边距用 cellpadding设置<b> 
--	<b>单元格的间距用 cellspacing设置<b> 
+-	<b>`border="2px"`定义其边框</b> 
+-	<b>单元格的内边距用 cellpadding设置</b> 
+-	<b>单元格的间距用 cellspacing设置</b> 
 2.	`<caption>`表格标题
-3.	`<th>`表格表头:<br/> -	<b>表头也包含在`<tr>`中<b> 
+3.	`<th>`表格表头:<br/> -	<b>表头也包含在`<tr>`中</b> 
 
 4.	`<tr>`表格的行
-5.	`<td>`表格单元:<br/> <b>表示空的单元格只需要不填写内容就行<b>
+5.	`<td>`表格单元:<br/> <b>表示空的单元格只需要不填写内容就行</b>
 6.	`<thead>`表格的页眉
 7.	`<tbody>`表格的主体
 8.	`<tfoot>`表格的页脚
