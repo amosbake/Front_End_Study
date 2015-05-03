@@ -95,3 +95,93 @@ input 包含了多种样式 用`type`指定 如:`text``password``checkbox``radio
 ™	商标	`&trade;	&#8482;`
 ×	乘号	`&times;	&#215;`
 ÷	除号`	&divide;	&#247;`
+##css 基础
+###css概述
+css是层叠样式表,定义了html的样式,方便了对html样式的操作
+###css语法
+基本语法如下
+```
+selector{
+    property:value
+}
+```
+派生选择器可以缩小指定范围
+```
+li strong{
+    color: aqua;
+    }
+```
+###id选择器
+ID选择器以`#`定义,指定特定的样式,常用语建立派生选择器(`exp:demo.css`)
+```
+#id_2{
+    color: chocolate;
+    height: 300px;
+    width: 300px;
+    background-color: blanchedalmond;
+}
+```
+###类选择器
+类选择器以`.`定义,指定特定的样式,可以建立派生选择器(`exp:demo.css`)
+```
+.class_1{
+    height: 300px;
+    width: 300px;
+    text-align: end;
+}
+```
+###属性选择器
+类选择器以`.`定义,指定特定的样式,可以建立派生选择器(`exp:demo_html`)
+```
+    <style type="text/css">
+        [title]{
+            color: blue;
+        }
+        [title=te]{
+            color: red;
+        }
+    </style>
+```
+###CSS背景
+example(`background.css`)
+1.	`background-color`	规定要使用的背景颜色。
+2.`	background-position`	规定背景图像的位置。
+3.	`background-size`	规定背景图片的尺寸。
+4.	`background-repeat	`规定如何重复背景图像。
+5.	`background-origin`	规定背景图片的定位区域。
+6.	`background-clip`	规定背景的绘制区域。
+7.	`background-attachment	`规定背景图像是否固定或者随着页面的其余部分滚动。
+8.	`background-image`	规定要使用的背景图像。
+###CSS文本
+1.	`color	`设置文本的颜色。
+2.	`direction	`规定文本的方向 / 书写方向。
+3.	`letter-spacing	`设置字符间距。
+4.	`line-height`	设置行高。
+5.	`text-align`	规定文本的水平对齐方式。
+5.	`text-decoration`	规定添加到文本的装饰效果。
+6.	`text-indent`	规定文本块首行的缩进。
+7.	`text-shadow`	规定添加到文本的阴影效果。
+8.	`text-transform`	控制文本的大小写。
+9.	`unicode-bidi`	设置文本方向。
+10.	`white-space`	规定如何处理元素中的空白。
+11.	`word-spacing`	设置单词间距。
+12.	`hanging-punctuation`	规定标点字符是否位于线框之外。
+13.	`punctuation-trim`	规定是否对标点字符进行修剪。
+14.	`text-align-last	`设置如何对齐最后一行或紧挨着强制换行符之前的行。
+15.	`text-emphasis	`向元素的文本应用重点标记以及重点标记的前景色。
+16.	`text-justify`	规定当` text-align `设置为 "justify" 时所使用的对齐方法。
+17.	`text-outline`	规定文本的轮廓。
+18.	`text-overflow	`规定当文本溢出包含元素时发生的事情。
+19.	`text-shadow`	向文本添加阴影。	css-3
+20.	`text-wrap`	规定文本的换行规则。	css-3
+21.	`word-break`	规定非中日韩文本的换行规则。
+22.	`word-wrap`	允许对长的不可分割的单词进行分割并换行到下一行。
+###CSS字体
+1.	`	font	`在一个声明中设置所有字体属性。
+2.	`font-family	`规定文本的字体系列。
+3.	`	font-size	`规定文本的字体尺寸。
+4.	`	font-size-adjust	`为元素规定 aspect 值。
+5.	`font-stretch	`收缩或拉伸当前的字体系列。
+6.	`font-style`	规定文本的字体样式。
+7.	`font-variant`	规定是否以小型大写字母的字体显示文本。
+8.	`font-weight	`规定字体的粗细。	
