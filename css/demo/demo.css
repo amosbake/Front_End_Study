@@ -1,0 +1,34 @@
+h1{
+    color: red;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+body{
+    color: green;
+}
+
+li strong{
+    color: aqua;
+}
+
+strong{
+    color: aquamarine;
+}
+#id_1{
+    color: blue;
+}
+#id_2{
+    color: chocolate;
+    height: 300px;
+    width: 300px;
+    background-color: blanchedalmond;
+}
+#id_2 p{
+   text-align: center;
+}
+.class_1{
+    height: 300px;
+    width: 300px;
+    text-align: end;
+}
