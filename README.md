@@ -150,7 +150,7 @@ example(`background.css`)
 4.	`background-repeat	`规定如何重复背景图像。
 5.	`background-origin`	规定背景图片的定位区域。
 6.	`background-clip`	规定背景的绘制区域。
-7.	`background-attachment	`规定背景图像是否固定或者随着页面的其余部分滚动。
+7.	`background-attachment	`规定背景图像是否固定或者随着 页面的其余部分滚动。
 8.	`background-image`	规定要使用的背景图像。
 ###CSS文本
 1.	`color	`设置文本的颜色。
@@ -184,4 +184,20 @@ example(`background.css`)
 5.	`font-stretch	`收缩或拉伸当前的字体系列。
 6.	`font-style`	规定文本的字体样式。
 7.	`font-variant`	规定是否以小型大写字母的字体显示文本。
-8.	`font-weight	`规定字体的粗细。	
+8.	`font-weight	`规定字体的粗细。
+##CSS对齐
+1.  `margin` 居中
+```
+    margin-left: auto;
+    margin-right: auto;
+```
+2.  `position`
+```
+    position: absolute;
+    right: 0px;
+```
+
+3.  `float`
+```
+   float: left;
+```

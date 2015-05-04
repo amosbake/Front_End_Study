@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+}
+.div{
+    width: 70%;
+    height: 1000px;
+  cursor: context-menu;
+    background-color: red;
+}
+.div ul{
+    display: inline-block;
+}
